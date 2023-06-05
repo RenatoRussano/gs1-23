@@ -8,9 +8,10 @@
 - 2 - Etapas futuras da proposta
 - 3 - Documentação Geral do projeto
 - 4 - Palheta de cores
-- 5 - Suporte
-- 6 - Github dos Autores
-- 7 - Sobre a equipe
+- 5 - Fontes
+- 6 - Suporte
+- 7 - Github dos Autores
+- 8 - Sobre a equipe
 
 ## 1- Descrição do Projeto Evogreen
 
@@ -52,9 +53,9 @@ Você pode encontrar a documentação geral do projeto e mais informações no T
 
 ## 5 - Fontes
 
-| Fonte padrão - Poppins
-| Fonte para Call to Action - Bebas Neue
-| Fonte para contraste - Monomaniac One
+| Fonte padrão - Poppins |
+| Fonte para Call to Action - Bebas Neue |
+| Fonte para contraste - Monomaniac One | 
 
 ## 6 - Suporte
 
