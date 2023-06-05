@@ -50,7 +50,13 @@ Você pode encontrar a documentação geral do projeto e mais informações no T
 | Cor ícone do Chatbot 1    | ![#ff07ff](https://via.placeholder.com/10/ff07ff?text=+) #ff07ff |
 | Cor ícone do Chatbot 2     | ![#00c9e3](https://via.placeholder.com/10/00c9e3?text=+) #00c9e3 |
 
-## 5 - Suporte
+## 5 - Fontes
+
+| Fonte padrão - Poppins
+| Fonte para Call to Action - Bebas Neue
+| Fonte para contraste - Monomaniac One
+
+## 6 - Suporte
 
 Para suporte, mande um email para:
 
@@ -62,10 +68,10 @@ rm551325@fiap.com.br
 
 
 
-## 6 - Github dos Autores
+## 7 - Github dos Autores
 
 - [@debsdamaso](https://www.github.com/debsdamaso)
 - [@RenatoRussano](https://www.github.com/RenatoRussano)
-## 7 - 🚀 Sobre a equipe
+## 8 - 🚀 Sobre a equipe
 Nossa equipe de tecnologia é composta atualmente por 2 estudantes do curso de Análise e Desenvolvimento de Sistemas da conceituada FIAP, que estão em busca de aprimoramento constante.
 Entendemos que para desenvolver a melhor solução possível, é preciso pensar fora da caixa e buscar ter uma visão ampla da situação.
