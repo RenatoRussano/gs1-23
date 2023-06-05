@@ -55,7 +55,7 @@ Você pode encontrar a documentação geral do projeto e mais informações no T
 
 | Fonte padrão - Poppins |
 | Fonte para Call to Action - Bebas Neue |
-| Fonte para contraste - Monomaniac One | 
+| Fonte para contraste - Monomaniac One |
 
 ## 6 - Suporte
 
