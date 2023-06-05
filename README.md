@@ -4,8 +4,6 @@
 
 ## Apêndice
 
-Coloque qualquer informação adicional aqui
-
 - 1 - Descrição do Projeto Evogreen
 - 2 - Etapas futuras da proposta
 - 3 - Documentação Geral do projeto
