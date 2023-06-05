@@ -1,4 +1,3 @@
-
 ![Logo](https://raw.githubusercontent.com/debsdamaso/SobreCSS/31da8bafeb66cfc366f4d4d7ccbfed082e11a5e4/LOGOMARCA_COMPLETA.png)
 
 
@@ -43,7 +42,7 @@ Você pode encontrar a documentação geral do projeto e mais informações no T
 
 | Cor               | Hexadecimal                                                |
 | ----------------- | ---------------------------------------------------------------- |
-| Tom branco     | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff ||
+| Tom branco     | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
 | Tom cinza escuro     | ![#d9d9da](https://via.placeholder.com/10/d9d9da?text=+) #d9d9da |
 | Tom cinza claro    | ![#eeeeee](https://via.placeholder.com/10/eeeeee?text=+) #eeeeee |
 | Tom Laranja      | ![#ffa800](https://via.placeholder.com/10/ffa800?text=+) #ffa800 |
@@ -53,9 +52,9 @@ Você pode encontrar a documentação geral do projeto e mais informações no T
 
 ## 5 - Fontes
 
-| Fonte padrão - Poppins
-| Fonte para Call to Action - Bebas Neue
-| Fonte para contraste - Monomaniac One
+- Fonte padrão - Poppins 
+- Fonte para Call to Action - Bebas Neue 
+- Fonte para contraste - Monomaniac One 
 
 ## 6 - Suporte
 
