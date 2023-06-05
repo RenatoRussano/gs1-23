@@ -8,9 +8,10 @@
 - 2 - Etapas futuras da proposta
 - 3 - Documentação Geral do projeto
 - 4 - Palheta de cores
-- 5 - Suporte
-- 6 - Github dos Autores
-- 7 - Sobre a equipe
+- 5 - Fontes
+- 6 - Suporte
+- 7 - Github dos Autores
+- 8 - Sobre a equipe
 
 ## 1- Descrição do Projeto Evogreen
 
