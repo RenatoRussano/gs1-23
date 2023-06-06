@@ -1,0 +1,136 @@
+/* MEDIA QUERRY PARA RESPONSIVIDADE */
+
+@media (max-width: 600px) {}
+    
+/* 601px e 900px */
+@media (min-width: 601px) and (max-width: 900px) {}
+    
+/* Maior que 900px */
+@media (min-width: 901px) {}
+
+/* ESPAÇAMENTO GERAL DO DOCUMENTO */
+
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+/* BARRA DE ROLAGEM */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #cecece;
+}
+::-webkit-scrollbar-thumb {
+    background: #ffa800; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* ORGANIZAÇÃO DE TEXTOS */
+
+h1{
+    margin-left: 2%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #4fb196;
+    font-size: 35px;
+}
+
+p {
+    margin-left: 2%;
+    margin-right: 3%;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 16px;
+}
+
+.p_rodape {
+    margin-left: 2%;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none; 
+}
+
+.a_rodape {
+    margin-left: 2%;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none; 
+}
+
+.a_rodape:hover {
+    text-decoration: none;
+    color: #4fb196;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+/* COMEÇO DA PERSONALIZAÇÃO DO CSS */
+
+.logo_principal {
+    width: 150px;
+    height: auto;
+}
+
+.iconografia_principal {
+    width: 50px;
+    height: auto;
+}
+
+.equipe_rodape {
+    width: 70px;
+    height: auto;
+    border-radius: 500px;
+}
+
+footer {
+    background-color: #4fb196;
+    color: white;
+}
+
+.fiap {
+    width: 50px;
+    height: auto;
+}
+
+.icone_rodape {
+    width: 30px;
+    height: auto;   
+}
+
+.icone_rodape_2 {
+    width: 100px;
+    height: auto;
+    color: white;
+}
+
+.linha_branca {  
+    border: 1px solid rgb(255, 255, 255);
+    width: 95%;
+    margin-left: 2%;
+}
+
+.linha_verde {  
+    border: 1px solid #4fb196;
+    width: 95%;
+    margin-left: 2%;
+}
+
+.linha_laranja {  
+    border: 1px solid #ffa800;
+    width: 95%;
+    margin-left: 2%;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+/* ESTILIZAÇÃO DO RODAPÉ */

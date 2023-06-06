@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evogreen - Login</title>
+
+    <link rel="stylesheet" href="../estilo/estilo.css">
+</head>
+<body>
+
+    <!-- SEPARADOR  -->
+
+<header>
+    <nav>
+        <a href="../index.html"><img src="../logo/evo/evo_full_color.png" alt="evogreen" class="logo_principal"></a>
+
+        <a href="home.html">Home</a>
+        <a href="proposta.html">Proposta</a>
+        <a href="case.html">Case</a>
+        <a href="equipe.html">Equipe</a>
+        <a href="desafios.html">Desafios</a>
+        <a href="contato.html">Contato</a>
+
+        <button type="button"><a href="login.html">Login</a></button>
+        <button type="button"><a href="cadastro.html">Cadastre-se</a></button>
+    </nav>
+</header>
+
+    <!-- SEPARADOR  -->
+
+<main>
+
+    <article>
+
+        <div class="container">
+            <h2>Acesse</h2>
+            <form action="processar_login.php" method="post">
+              <div class="form-group">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username" required>
+              </div>
+              <div class="form-group">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+              </div>
+              <div class="form-group captcha">
+                <label for="captcha">Verificação:</label>
+                <img src="captcha_image.php" alt="Captcha" class="captcha-image">
+                <input type="text" id="captcha" name="captcha" class="captcha-input" required>
+              </div>
+              <button type="submit">Entrar</button>
+            </form>
+            <div class="forgot-password">
+              <a href="esqueci_senha.php">Esqueci minha senha</a>
+            </div>
+            <div class="register">
+              <a href="cadastro.php">Não é cadastrado ainda? Cadastre-se</a>
+            </div>
+
+    </article>
+
+</main>
+
+    <!-- SEPARADOR  -->
+
+    <footer>
+        <br>
+        <div class="linha_branca"></div>
+    
+        <div>
+            <p>Sobre a EVOGREEN</p>
+            <a href="../paginas/sobre.html">Conheça a nossa história</a><br>
+            Denuncie <br>
+            Segurança e privacidade <br>
+            Comunique erro de segurança <br>
+            </p>
+        </div>
+    
+        <div>
+            <p>Para você</p>
+            Newsletter <br>
+            Cooperativa <br>
+            Assistência técnica <br>
+            <a href="../paginas/cadastro.html">Cadastro</a><br>
+            <a href="../paginas/login.html">Login</a><br>
+            </p>
+        </div>
+    
+        <div>
+            <p> Navegação </p>
+            <a href="../paginas/home.html">Home</a><br>
+            <a href="../paginas/proposta.html">Proposta</a><br>
+            <a href="../paginas/case.html">Case</a><br>
+            <a href="../paginas/equipe.html">Equipe</a><br>
+            <a href="../paginas/desafios.html">Desafios</a><br>
+            <a href="../paginas/contato.html">Contato</a><br>
+    
+            </p>
+        </div>
+    
+        <div>
+            <p>
+                <img src="../imagens/equipe_renato_cinza.png" alt="Renato" class="equipe_rodape"><br>
+                Renato Romeu <br>
+                RM 551325
+            </p>
+        </div>
+    
+        <div>
+            <p>
+                <img src="../imagens/equipe_debora_cinza.png" alt="Debora" class="equipe_rodape"><br>
+                Debora Lopes <br>
+                RM 97836</p>
+        </div>
+    
+        <div>
+            <a href="https://www.youtube.com/playlist?list=PLnsC4Y30EcL6bVKsrTopEp6LRYuSl-lJS" target="_blank"><img src="../logo/redes/youtube_white.png" alt="Youtube" class="icone_rodape"></a>
+            <img src="../logo/redes/instagram_white.png" alt="Instagram" class="icone_rodape">
+            <img src="../logo/redes/twitter_white.png" alt="Twitter" class="icone_rodape">
+            <a href="https://github.com/RenatoRussano/gs1-23" target="_blank"><img src="../logo/redes/github_white.png" alt="Github" class="icone_rodape"></a>
+            <a href="https://trello.com/invite/b/ecWkLHYo/ATTIbee0852c35d1f3cb1e11e9d64625d6302B905D4E/evogreen"target="_blank"><img src="../logo/redes/trello_white.png" alt="Trello" class="icone_rodape"></a>
+            <img src="../logo/redes/store_apple.png" alt="APP Store" class="icone_rodape_2">
+            <img src="../logo/redes/store_google.png" alt="Google Play" class="icone_rodape_2">
+        </div>
+    
+        <div>
+            <img src="../logo/evo/evo_full_white.png" alt="logo evogreen" class="logo_principal">
+            <p>@2023 - Powered by Unicorn Cake, todos os direitos reservados.</p>
+    
+            <img src="../logo/redes/fiap_white.png" alt="logo fiap" class="fiap">
+        </div>
+    
+    </footer>
+
+<!-- SEPARADOR  -->
+
+</body>
+</html>
