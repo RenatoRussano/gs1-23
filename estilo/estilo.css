@@ -1,20 +1,30 @@
 /* MEDIA QUERRY PARA RESPONSIVIDADE */
 
 @media (max-width: 600px) {}
-    
+
 /* 601px e 900px */
 @media (min-width: 601px) and (max-width: 900px) {}
     
-/* Maior que 900px */
+/* + 900px */
 @media (min-width: 901px) {}
 
+/* ESPAÇAMENTO GERAL DO DOCUMENTO */
+/* ESPAÇAMENTO GERAL DO DOCUMENTO */
+/* ESPAÇAMENTO GERAL DO DOCUMENTO */
+/* ESPAÇAMENTO GERAL DO DOCUMENTO */
 /* ESPAÇAMENTO GERAL DO DOCUMENTO */
 
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+
 } 
 
+/* BARRA DE ROLAGEM */
+/* BARRA DE ROLAGEM */
+/* BARRA DE ROLAGEM */
+/* BARRA DE ROLAGEM */
 /* BARRA DE ROLAGEM */
 
 ::-webkit-scrollbar {
@@ -30,14 +40,59 @@
     background: #555;
 }
 
+body {
+    background-image: url("../imagens/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 /* ORGANIZAÇÃO DE TEXTOS */
+/* ORGANIZAÇÃO DE TEXTOS */
+/* ORGANIZAÇÃO DE TEXTOS */
+/* ORGANIZAÇÃO DE TEXTOS */
+/* ORGANIZAÇÃO DE TEXTOS */
+
+.h1especial {
+    margin-left: 2%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #4fb196;
+    font-size: 80px;    
+}
+
+.h2especial {
+    margin-left: 2%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffa800;
+    font-size: 80px;    
+}
 
 h1{
     margin-left: 2%;
     font-family: 'Bebas Neue', sans-serif;
     color: #4fb196;
+    font-size: 55px;
+}
+
+h2{
+    margin-left: 2%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #969696;
     font-size: 35px;
+}
+
+.h2especial {
+    margin-left: 2%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ff0062;
+    font-size: 35px;    
+}
+
+h3{
+    margin-left: 2%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #4fb196;
+    font-size: 25px;
 }
 
 p {
@@ -48,12 +103,363 @@ p {
     font-size: 16px;
 }
 
-.p_rodape {
+.p3 {
     margin-left: 2%;
+    margin-right: 3%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ff0062;
+    font-size: 20px;
+}
+
+.p2 {
+    margin-left: 2%;
+    margin-right: 3%;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 16px; 
+}
+
+.pespecial {
+    margin-left: 2%;
+    margin-right: 3%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #4fb196;
+    font-size: 40px; 
+}
+
+.linkonu {
+    margin-left: 2%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ff0062;
+    font-size: 20px; 
+}
+
+.formulario {
+    font-family: 'Poppins', sans-serif;
+    color: #4fb196;
+    font-size: 16px; 
+}
+
+.mainespecial {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: #4fb196;
+}
+
+.form_input {
+    font-family: 'Poppins', sans-serif;
+    color: #505050;
+    font-size: 12px; 
+    width: 300px;
+}
+
+/* PERSONALIZAÇÃO ADICIONAL DA INDEX*/
+/* PERSONALIZAÇÃO ADICIONAL DA INDEX*/
+/* PERSONALIZAÇÃO ADICIONAL DA INDEX*/
+/* PERSONALIZAÇÃO ADICIONAL DA INDEX*/
+/* PERSONALIZAÇÃO ADICIONAL DA INDEX*/
+
+.erro {
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 0;
+    margin-left: 45%;
+}
+
+.erro404 {
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox_index {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-grow: 5;
+    flex-basis: 10;
+    margin: 5px;
+    margin-right: 2%;
+}
+  
+.flexbox_index_ideia {
+    flex: 0 0 calc(18% - 5px);
+    margin-bottom: 10px;
+    margin-left: 2%;
+}
+
+.flexbox_index_ideia2 {
+    flex: 0 0 calc(30% - 0px);
+    margin-bottom: 10px;
+    margin-left: 2%;
+}
+
+.linkindex {
+    color: #4fb196;
+    transition: color 0.3s, background-color 0.3s;
+    margin: 2%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.linkindex:hover {
+    color:#7aeccc;
+    transition: color 0.3s, background-color 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.linha_verde {  
+    border: 1px solid #4fb196;
+    width: 95%;
+    margin-left: 2%;
+}
+
+.iconografia_principal {
+    width: 50px;
+    height: auto;
+    margin-left: 2%;
+}
+
+
+/* COMEÇO DA PERSONALIZAÇÃO DO CSS */
+/* COMEÇO DA PERSONALIZAÇÃO DO CSS */
+/* COMEÇO DA PERSONALIZAÇÃO DO CSS */
+/* COMEÇO DA PERSONALIZAÇÃO DO CSS */
+/* COMEÇO DA PERSONALIZAÇÃO DO CSS */
+
+.logo_principal {
+    width: 150px;
+    height: auto;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.icone {
+    border-radius: 500px;
+    width: 150px;
+}
+
+/* ESTILIZAÇÃO DO NAV */
+/* ESTILIZAÇÃO DO NAV */
+/* ESTILIZAÇÃO DO NAV */
+/* ESTILIZAÇÃO DO NAV */
+/* ESTILIZAÇÃO DO NAV */
+
+nav {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none; 
+    margin-left: 2%;
+
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.textonav {
+    color: #4fb196;
+    transition: color 0.3s, background-color 0.3s;
+    margin: 20px;
+}
+
+.textonav:hover {
+    color:#7aeccc;
+    border-radius: 3px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.botaonav1 {
+    color: #4fb196;
+}
+
+.botaonav1:hover {
+    color: #ffa800;
+}
+
+.botaonav2 {
+    color: white;
+}
+
+.botao_verde1 {
+
+    background-color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #4fb196;
+    font-size: 18px;
+    border: 2px solid #4fb196;
+    border-radius: 3px;
+    width: 60px;
+    height: 30px;
+
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.botao_verde1:hover {
+    color: #ffa800;
+    border-color: #ffa800;
+    background-color: white;
+    text-decoration: none;    
+}
+
+.botao_verde1:visited {
+    color: #ffa800;
+    text-decoration: none;
+}
+
+.botao_verde2 {
+
+    background-color: #4fb196;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    border: 2px solid #4fb196;
+    border-radius: 3px;
+    width: 105px;
+    height: 30px;
+    margin-left: 25px;
+
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.botao_verde2:hover {
+    color: white;
+    border-color: #ffa800;
+    background-color: #ffa800;
+    text-decoration: none;    
+}
+
+.botao_verde2:visited {
+    color: #ffa800;
+    text-decoration: none;
+}
+
+.botao_verde3 {
+
+    background-color: #4fb196;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    border: 2px solid #4fb196;
+    border-radius: 3px;
+    margin-left: 10px;
+
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.botao_verde3:hover {
+    color: white;
+    border-color: #ffa800;
+    background-color: #ffa800;
+    text-decoration: none;    
+}
+
+.botao_verde3:visited {
+    color: #ffa800;
+    text-decoration: none;
+}
+
+/* ORGANIZAÇÃO DAS DIVS DO RODAPÉ */
+/* ORGANIZAÇÃO DAS DIVS DO RODAPÉ */
+/* ORGANIZAÇÃO DAS DIVS DO RODAPÉ */
+/* ORGANIZAÇÃO DAS DIVS DO RODAPÉ */
+/* ORGANIZAÇÃO DAS DIVS DO RODAPÉ */
+
+footer {
+    background-color: #4fb196;
+    color: white;
+}
+
+.flexbox_rodape {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 5px;
+}
+
+.sobreevogreen {
+    width: 250px;
+}
+
+.sobreevogreen2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.colunaequipe {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.rodape_flex {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
     font-size: 14px;
     text-decoration: none; 
+}
+
+.p_rodape {
+    margin-left: 15px;
+    color: white;
+    font-size: 12px;
+}
+
+.equipetexto {
+    margin-left: 2%;
+    color: white;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.linha_branca {  
+    border: 1px solid rgb(255, 255, 255);
+    width: 95%;
+    margin-left: 2%;
+}
+
+.equipe_imagem {
+    width: 50px;
+    height: auto;
+    border-radius: 500px;
+}
+
+.icone_rodape {
+    width: 30px;
+    height: auto;
+    margin-right: 30px;
+    margin-left: 2%;
+}
+
+.icone_rodape_2 {
+    width: 100px;
+    height: auto;
+    color: white;
+}
+
+.logo_rodape1 {
+    width: 150px;
+    height: auto;
+    margin-left: 2%;
+}
+
+.linkrodape {
+    margin-right: 20%;
 }
 
 .a_rodape {
@@ -69,68 +475,58 @@ p {
     color: #4fb196;
     background-color: #ffffff;
     font-weight: bold;
+    border-radius: 3px;
 }
 
-/* COMEÇO DA PERSONALIZAÇÃO DO CSS */
-
-.logo_principal {
-    width: 150px;
-    height: auto;
+.rodape_links{
+    margin-top: 2%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
-.iconografia_principal {
-    width: 50px;
-    height: auto;
-}
-
-.equipe_rodape {
-    width: 70px;
-    height: auto;
-    border-radius: 500px;
-}
-
-footer {
-    background-color: #4fb196;
+.powered {
+    margin-left: 2.5%;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
     color: white;
 }
 
-.fiap {
-    width: 50px;
-    height: auto;
-}
-
-.icone_rodape {
-    width: 30px;
-    height: auto;   
-}
-
-.icone_rodape_2 {
-    width: 100px;
-    height: auto;
+.titulo_rodape {
     color: white;
+    font-size: 12px;
 }
 
-.linha_branca {  
-    border: 1px solid rgb(255, 255, 255);
-    width: 95%;
-    margin-left: 2%;
-}
-
-.linha_verde {  
-    border: 1px solid #4fb196;
-    width: 95%;
-    margin-left: 2%;
-}
-
-.linha_laranja {  
-    border: 1px solid #ffa800;
-    width: 95%;
-    margin-left: 2%;
-}
-
-.banner {
-    width: 100%;
+.campoform {
+    color: #235c4c;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: #ececec;
+    border-color: #ffffff;
+    border: 1px;
+    width: 300px;
     height: auto;
 }
 
-/* ESTILIZAÇÃO DO RODAPÉ */
+.textocheckbox {
+    font-size: 10px;
+}
+
+.flexboxform {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.linkpequeno {
+    font-size: 10px;
+    color: #235c4c;
+    font-family: 'Poppins', sans-serif;
+}
+
+.linkpequeno:hover {
+    font-size: 10px;
+    color: #30be96;
+    font-family: 'Poppins', sans-serif;
+}

@@ -7,6 +7,8 @@
     <title>Evogreen - Cadastro</title>
 
     <link rel="stylesheet" href="../estilo/estilo.css">
+    <link rel="icon" href="../icones/favicon/color/favicon.ico" type="image/x-icon">
+
 </head>
 <body>
 
@@ -16,169 +18,163 @@
     <nav>
         <a href="../index.html"><img src="../logo/evo/evo_full_color.png" alt="evogreen" class="logo_principal"></a>
 
-        <a href="home.html">Home</a>
-        <a href="proposta.html">Proposta</a>
-        <a href="case.html">Case</a>
-        <a href="equipe.html">Equipe</a>
-        <a href="desafios.html">Desafios</a>
-        <a href="contato.html">Contato</a>
+        <a href="home.html" class="textonav">Home</a>
+        <a href="proposta.html" class="textonav">Proposta</a>
+        <a href="case.html" class="textonav">Case</a>
+        <a href="equipe.html" class="textonav">Equipe</a>
+        <a href="desafios.html" class="textonav">Desafios</a>
+        <a href="contato.html" class="textonav">Contato</a>
 
-        <button type="button"><a href="login.html">Login</a></button>
-        <button type="button"><a href="cadastro.html">Cadastre-se</a></button>
+        <button type="button" class="botao_verde1"><a href="login.html" class="botaonav1">Login</a></button>
+        <button type="button" class="botao_verde2"><a href="cadastro.html" class="botaonav2">Cadastre-se</a></button>
     </nav>
 </header>
 
     <!-- SEPARADOR  -->
+    <img src="../imagens/banners/banner_03_esp.jpg" alt="splash" class="banner">
 
-<main>
+    <main class="mainespecial">
 
     <article>
 
-        <img src="" alt="logo">
-        <h3>Quer ficar por dentro de tudo que acontece por aqui?</h3>
-        <p>Cadastre-se e acompanhe as principais novidades no mundo da agricultura e tecnologia</p>
+        <h1>Quer ficar por dentro de tudo que acontece por aqui?</h1>
+        <p>Cadastre-se e acompanhe as principais novidades no mundo da agricultura e tecnologia</p><br><br>
 
         <div>
             <form action="#" method="post">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required><br><br>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required class="campoform"><br><br>
         
-                <label for="sobrenome">Sobrenome:</label>
-                <input type="text" id="sobrenome" name="sobrenome" required><br><br>
+                <label for="sobrenome">Sobrenome:</label><br>
+                <input type="text" id="sobrenome" name="sobrenome" required class="campoform"><br><br>
         
-                <label for="dataNascimento">Data de Nascimento:</label>
-                <input type="date" id="dataNascimento" name="dataNascimento" required><br><br>
+                <label for="dataNascimento">Data de Nascimento:</label><br>
+                <input type="date" id="dataNascimento" name="dataNascimento" required class="campoform"><br><br>
         
-                <label for="cep">CEP:</label>
-                <input type="text" id="cep" name="cep" required><br><br>
+                <label for="cep">CEP:</label><br>
+                <input type="text" id="cep" name="cep" required class="campoform"><br><br>
         
-                <label for="logradouro">Logradouro:</label>
-                <input type="text" id="logradouro" name="logradouro" required><br><br>
+                <label for="logradouro">Logradouro:</label><br>
+                <input type="text" id="logradouro" name="logradouro" required class="campoform"><br><br>
         
-                <label for="numero">Número:</label>
-                <input type="text" id="numero" name="numero" required><br><br>
+                <label for="numero">Número:</label><br>
+                <input type="text" id="numero" name="numero" required class="campoform"><br><br>
         
-                <label for="complemento">Complemento:</label>
-                <input type="text" id="complemento" name="complemento"><br><br>
+                <label for="complemento">Complemento:</label><br>
+                <input type="text" id="complemento" name="complemento" class="campoform"><br><br>
         
-                <label for="bairro">Bairro:</label>
-                <input type="text" id="bairro" name="bairro" required><br><br>
+                <label for="bairro">Bairro:</label><br>
+                <input type="text" id="bairro" name="bairro" required class="campoform"><br><br>
         
-                <label for="cidade">Cidade:</label>
-                <input type="text" id="cidade" name="cidade" required><br><br>
+                <label for="cidade">Cidade:</label><br>
+                <input type="text" id="cidade" name="cidade" required class="campoform"><br><br>
         
-                <label for="estado">Estado:</label>
-                <input type="text" id="estado" name="estado" required><br><br>
+                <label for="estado">Estado:</label><br>
+                <input type="text" id="estado" name="estado" required class="campoform"><br><br>
         
-                <label for="dddCelular">DDD (Celular):</label>
-                <input type="text" id="dddCelular" name="dddCelular" required><br><br>
+                <label for="dddCelular">DDD (Celular):</label><br>
+                <input type="text" id="dddCelular" name="dddCelular" required class="campoform"><br><br>
         
-                <label for="telefoneCelular">Telefone Celular:</label>
-                <input type="text" id="telefoneCelular" name="telefoneCelular" required><br><br>
+                <label for="telefoneCelular">Telefone Celular:</label><br>
+                <input type="text" id="telefoneCelular" name="telefoneCelular" required class="campoform"><br><br>
         
-                <label for="dddFixo">DDD (Fixo):</label>
-                <input type="text" id="dddFixo" name="dddFixo"><br><br>
+                <label for="dddFixo">DDD (Fixo):</label><br>
+                <input type="text" id="dddFixo" name="dddFixo" class="campoform"><br><br>
         
-                <label for="telefoneFixo">Telefone Fixo:</label>
-                <input type="text" id="telefoneFixo" name="telefoneFixo"><br><br>
+                <label for="telefoneFixo">Telefone Fixo:</label><br>
+                <input type="text" id="telefoneFixo" name="telefoneFixo" class="campoform"><br><br>
         
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required class="campoform"><br><br>
         
-                <label for="whatsapp">WhatsApp:</label>
-                <input type="text" id="whatsapp" name="whatsapp"><br><br>
+                <label for="whatsapp">WhatsApp:</label><br>
+                <input type="text" id="whatsapp" name="whatsapp" class="campoform"><br><br>
         
-                <label for="usuario">Usuário:</label>
-                <input type="text" id="usuario" name="usuario" required><br><br>
+                <label for="usuario">Usuário:</label><br>
+                <input type="text" id="usuario" name="usuario" required class="campoform"><br><br>
         
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required><br><br>
+                <label for="senha">Senha:</label><br>
+                <input type="password" id="senha" name="senha" required class="campoform"><br><br>
         
-                <label for="confirmarSenha">Confirmação de Senha:</label>
-                <input type="password" id="confirmarSenha" name="confirmarSenha" required><br><br>
+                <label for="confirmarSenha">Confirmação de Senha:</label><br>
+                <input type="password" id="confirmarSenha" name="confirmarSenha" required class="campoform"><br><br>
         
-                <label for="termos">Li e concordo com os termos e condições:</label>
-                <input type="checkbox" id="termos" name="termos" required><br><br>
+                <input type="checkbox" id="termos" name="termos" required>
+                <label for="termos" class="textocheckbox">Li e concordo com os termos e condições:</label><br><br>
         
-                <label for="aceitarTermos">Aceitar os termos e condições:</label>
-                <input type="checkbox" id="aceitarTermos" name="aceitarTermos" required><br><br>
+                <input type="checkbox" id="aceitarTermos" name="aceitarTermos" required >
+                <label for="aceitarTermos" class="textocheckbox">Aceitar os termos e condições:</label><br><br>
         
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Cancelar">
+                <button type="submit" class="botao_verde2"><a href="../paginas/construcao.html">Enviar</a></button>
+                <input type="reset" value="Cancelar" class="botao_verde2">
             </form>
         </div>
 
     </article>
 
 </main>
-
+    <br><br><br><br><br>
     <!-- SEPARADOR  -->
 
     <footer>
-        <br>
+
+        <br><br>
+    
         <div class="linha_branca"></div>
+        
+            <div class="flexbox_rodape">
     
-        <div>
-            <p>Sobre a EVOGREEN</p>
-            <a href="../paginas/sobre.html">Conheça a nossa história</a><br>
-            Denuncie <br>
-            Segurança e privacidade <br>
-            Comunique erro de segurança <br>
-            </p>
+            <div class="sobreevogreen"><br>
+                <p class="titulo_rodape">Sobre a EVOGREEN</p> <br>
+                <a href="../paginas/sobre.html"class="a_rodape">Conheça a nossa história</a><br>
+                <a href="../paginas/cadastro.html"class="a_rodape">Cadastro</a><br>
+                <a href="../paginas/login.html"class="a_rodape">Login</a><br>
+                </p>
+            </div>
+        
+            <div class="sobreevogreen"><br>
+                <p class="titulo_rodape"> Navegação </p> <br>
+                <a href="../paginas/home.html"class="a_rodape">Home</a><br>
+                <a href="../paginas/proposta.html"class="a_rodape">Proposta</a><br>
+                <a href="../paginas/case.html"class="a_rodape">Case</a><br>
+                <a href="../paginas/equipe.html"class="a_rodape">Equipe</a><br>
+                <a href="../paginas/desafios.html"class="a_rodape">Desafios</a><br>
+                <a href="../paginas/contato.html"class="a_rodape">Contato</a><br>    
+                </p>
+            </div>
+        
+            <div class="sobreevogreen"> <br>
+                <p class="titulo_rodape">Equipe</p><br>
+                    <div class="equipetexto">
+                    Renato Romeu<br>
+                    RM551325<br><br>
+    
+                    João Pedro<br>
+                    RM550809<br><br>
+    
+                    Debora Lopes<br>
+                    RM97836<br><br>
+                    </div>
+              </div>
+    
+            <div class="sobreevogreen"> <br>
+                <p class="titulo_rodape">Acompanhe a gente</p><br>
+    
+                <a href="https://www.youtube.com/playlist?list=PLnsC4Y30EcL6bVKsrTopEp6LRYuSl-lJS" target="_blank">
+                    <img src="../logo/redes/youtube_white.png" alt="Youtube" class="icone_rodape"></a>
+                    
+                <a href="https://github.com/RenatoRussano/gs1-23" target="_blank">
+                    <img src="../logo/redes/github_white.png" alt="Github" class="icone_rodape"></a>
+    
+                <a href="https://trello.com/invite/b/ecWkLHYo/ATTIbee0852c35d1f3cb1e11e9d64625d6302B905D4E/evogreen"target="_blank">
+                    <img src="../logo/redes/trello_white.png" alt="Trello" class="icone_rodape"></a>
+            </div>
+    
         </div>
     
-        <div>
-            <p>Para você</p>
-            Newsletter <br>
-            Cooperativa <br>
-            Assistência técnica <br>
-            <a href="../paginas/cadastro.html">Cadastro</a><br>
-            <a href="../paginas/login.html">Login</a><br>
-            </p>
-        </div>
-    
-        <div>
-            <p> Navegação </p>
-            <a href="../paginas/home.html">Home</a><br>
-            <a href="../paginas/proposta.html">Proposta</a><br>
-            <a href="../paginas/case.html">Case</a><br>
-            <a href="../paginas/equipe.html">Equipe</a><br>
-            <a href="../paginas/desafios.html">Desafios</a><br>
-            <a href="../paginas/contato.html">Contato</a><br>
-    
-            </p>
-        </div>
-    
-        <div>
-            <p>
-                <img src="../imagens/equipe_renato_cinza.png" alt="Renato" class="equipe_rodape"><br>
-                Renato Romeu <br>
-                RM 551325
-            </p>
-        </div>
-    
-        <div>
-            <p>
-                <img src="../imagens/equipe_debora_cinza.png" alt="Debora" class="equipe_rodape"><br>
-                Debora Lopes <br>
-                RM 97836</p>
-        </div>
-    
-        <div>
-            <a href="https://www.youtube.com/playlist?list=PLnsC4Y30EcL6bVKsrTopEp6LRYuSl-lJS" target="_blank"><img src="../logo/redes/youtube_white.png" alt="Youtube" class="icone_rodape"></a>
-            <img src="../logo/redes/instagram_white.png" alt="Instagram" class="icone_rodape">
-            <img src="../logo/redes/twitter_white.png" alt="Twitter" class="icone_rodape">
-            <a href="https://github.com/RenatoRussano/gs1-23" target="_blank"><img src="../logo/redes/github_white.png" alt="Github" class="icone_rodape"></a>
-            <a href="https://trello.com/invite/b/ecWkLHYo/ATTIbee0852c35d1f3cb1e11e9d64625d6302B905D4E/evogreen"target="_blank"><img src="../logo/redes/trello_white.png" alt="Trello" class="icone_rodape"></a>
-            <img src="../logo/redes/store_apple.png" alt="APP Store" class="icone_rodape_2">
-            <img src="../logo/redes/store_google.png" alt="Google Play" class="icone_rodape_2">
-        </div>
-    
-        <div>
-            <img src="../logo/evo/evo_full_white.png" alt="logo evogreen" class="logo_principal">
-            <p>@2023 - Powered by Unicorn Cake, todos os direitos reservados.</p>
-    
-            <img src="../logo/redes/fiap_white.png" alt="logo fiap" class="fiap">
+        <div class="rodape_logo">
+            <img src="../logo/evo/evo_full_white.png" alt="logo evogreen" class="logo_rodape1"> <br> <p class="powered">@2023 - Powered by Unicorn Cake, todos os direitos reservados.</p>
+            <br><br>
         </div>
     
     </footer>
