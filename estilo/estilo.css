@@ -219,7 +219,7 @@ p {
 }
   
 .flexbox_index_ideia {
-    flex: 0 0 calc(18% - 5px);
+    flex: 0 0 calc(80% - 5px);
     margin-bottom: 10px;
     margin-left: 2%;
 }
