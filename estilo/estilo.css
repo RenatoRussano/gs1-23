@@ -1,9 +1,44 @@
 /* MEDIA QUERRY PARA RESPONSIVIDADE */
 
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+nav {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none; 
+    margin-left: 2%;
+
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
+}
 
 /* 601px e 900px */
-@media (min-width: 601px) and (max-width: 900px) {}
+@media (min-width: 601px) and (max-width: 900px) {
+    nav {
+        background-color: white;
+        font-family: 'Poppins', sans-serif;
+        color: #ffffff;
+        font-size: 16px;
+        text-decoration: none; 
+        margin-left: 2%;
+    
+        list-style: none;
+        padding: 0;
+    
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    
+        flex-direction: row;
+    }
+}
     
 /* + 900px */
 @media (min-width: 901px) {}
@@ -18,7 +53,6 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-
 } 
 
 /* BARRA DE ROLAGEM */
@@ -529,4 +563,24 @@ footer {
     font-size: 10px;
     color: #30be96;
     font-family: 'Poppins', sans-serif;
+}
+
+.iconetime {
+    width: 20px;
+    height: auto;
+}
+
+.superdiv {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.fotoperfil {
+    width: 150px;
+    height: auto;
+    border-radius: 500px;
 }
